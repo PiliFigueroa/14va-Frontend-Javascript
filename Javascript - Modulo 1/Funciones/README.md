@@ -2,7 +2,7 @@
 - Se espera que puedan realizar los ejercicios utilizando todo lo visto hasta ahora, y testeando sus propios codigos con varios ejemplos (numeros enteros, positivos y negativos, con coma, etc) las veces que sea necesario para asegurarse su funcionamiento. Probar que pasa si no se reciben parametros y analizar cada caso.
 
 Recordar sintaxis:
-```
+```javascript
 const miFuncion = (parametros) => {
     // sentencias de codigo
     return
@@ -12,7 +12,7 @@ miFuncion()
 
 ### Ejercicio 1
 - Crear una funcion que reciba como parametro dos numeros y devuelva el resultado de cada calculo aritmetico.
-```
+```javascript
 sumar(a, b)
 restar(a, b)
 dividir(a, b)
@@ -21,7 +21,7 @@ multiplicar(a, b)
 
 ### Ejercicio 2
 - Crear una funcion que reciba como parametro un sueldo y un numero que representa el porcentaje de aumento. La funcion debe devolver el sueldo mas el aumento.
-```
+```javascript
 aumentarSueldo(1000, 10) // deberia devolver 1100
 ```
 

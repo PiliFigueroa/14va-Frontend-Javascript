@@ -16,7 +16,7 @@
 Recordar: document.write() y alert()
 
 ### Ejercicio 4:
-- Pedir al usuario dos numeros y mostrar por el documento los resultados.
+- Pedir al usuario dos numeros y mostrar por el documento los resultados de cada calculo aritmetico.
 Ejemplo:
 El resultado de la suma es: ${resultado}
 

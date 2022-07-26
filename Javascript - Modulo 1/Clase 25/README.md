@@ -19,3 +19,7 @@ Recordar: document.write() y alert()
 - Pedir al usuario dos numeros y mostrar por el documento los resultados.
 Ejemplo:
 El resultado de la suma es: ${resultado}
+
+### Bonus:
+- A lo que hiciste en el ejercicio 4, sumale un tercer numero a cada calculo. Mostrar por consola y analizar que paso en cada caso.
+Obtuviste los resultados esperados?

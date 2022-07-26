@@ -63,12 +63,12 @@ modulo %
 // let numero = 5
 // let numero2 = 2
 
-let numero = prompt("Ingrese el primer numero:", 0)
-let numero2 = prompt("Ingrese el segundo numero:", 0)
+// let numero = prompt("Ingrese el primer numero:", 0)
+// let numero2 = prompt("Ingrese el segundo numero:", 0)
 
-// parseItn() es un metodo que convierte un string a un numero entero
-console.log("Suma", parseInt(numero) + parseInt(numero2))
-console.log("Resta", numero - numero2)
-console.log("Producto", numero * numero2)
-console.log("Division", numero / numero2)
-console.log("Modulo", numero % numero2)
+// // parseInt() es un metodo que convierte un string a un numero entero
+// console.log("Suma", parseInt(numero) + parseInt(numero2))
+// console.log("Resta", numero - numero2)
+// console.log("Producto", numero * numero2)
+// console.log("Division", numero / numero2)
+// console.log("Modulo", numero % numero2)

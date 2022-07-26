@@ -14,3 +14,8 @@
 
 - Tomar las variables del ejercicio 1 y mostrar un texto por consola, por el documento y por un alert (hagan de a uno por vez, comentando y probando) y utilizar template literals.
 Recordar: document.write() y alert()
+
+### Ejercicio 4:
+- Pedir al usuario dos numeros y mostrar por el documento los resultados.
+Ejemplo:
+El resultado de la suma es: ${resultado}

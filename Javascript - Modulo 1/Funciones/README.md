@@ -13,10 +13,10 @@ miFuncion()
 ### Ejercicio 1
 - Crear una funcion que reciba como parametro dos numeros y devuelva el resultado de cada calculo aritmetico.
 ```
-sumar()
-restar()
-dividir()
-multiplicar()
+sumar(a, b)
+restar(a, b)
+dividir(a, b)
+multiplicar(a, b)
 ```
 
 ### Ejercicio 2

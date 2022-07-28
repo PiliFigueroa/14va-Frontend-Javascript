@@ -10,6 +10,9 @@ const miFuncion = (parametros) => {
 miFuncion()
 ```
 
+### Ejercicio 0
+- Crear una funcion que reciba como parametro un nombre y muestre por consola un saludo a esa persona.
+
 ### Ejercicio 1
 - Crear una funcion que reciba como parametro dos numeros y devuelva el resultado de cada calculo aritmetico.
 ```javascript
@@ -30,8 +33,11 @@ aumentarSueldo(1000, 10) // deberia devolver 1100
 Ejemplo: Me llamo Pepa, tengo 30 anios, vivo en Colombia y soy abogada.
 
 ### Ejercicio 4
-- Crear una funcion que reciba como parametro un precio y devuelva el IVA que le corresponde.
+- Crear una funcion que reciba como parametro un precio y devuelva el precio mas el IVA.
 
 ### Ejercicio 5
 - Como harian para usar las funciones del ejercicio 1 pero que los numeros se los pidamos al usuario?
 - Repetir solucion pero para el ejercicio 2 y ejercicio 3
+
+### Bonus:
+- Crear una funcion contador() que cada vez que se ejecute, sume en una unidad a una variable.

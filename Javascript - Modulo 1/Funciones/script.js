@@ -1,3 +1,5 @@
+/* ------------ REPASO ------------- */
+
 // Variables - Almancena info
 
 // let nombreDeLaVariable = "Soy una variable"
@@ -35,7 +37,7 @@
 // console.log(num1 - num2 - num3)
 // console.log((num1 + num2) * num3)
 
-/* ------------------------------------------ */
+/* ------------ FIN DEL REPASO ------------- */
 
 // Funciones
 
@@ -96,25 +98,25 @@ const nombreDeLaFuncion = () => {
 // let numero = parseInt(prompt("Ingrese el primer valor"))
 // let numero2 = parseInt(prompt("Ingrese el segundo valor"))
 
-const sumar = (a, b) => {
-    return a + b
-}
+// const sumar = (a, b) => {
+//     return a + b
+// }
 
 // console.log(sumar(5, 3))
 // console.log(sumar(4, 5))
 
-const restar = (a, b) => {
-    return a - b
-}
+// const restar = (a, b) => {
+//     return a - b
+// }
 
 // console.log(restar(10, 5))
 // console.log(restar(5, 10))
 
-const calculoComplicado = (a, b) => {
-    let suma = sumar(a, b)
-    let resta = restar(a, b)
-    return resta * suma
-}
+// const calculoComplicado = (a, b) => {
+//     let suma = sumar(a, b)
+//     let resta = restar(a, b)
+//     return resta * suma
+// }
     
 // console.log(sumar(numero, numero2))
 // console.log(restar(numero, numero2))
@@ -138,7 +140,7 @@ const calculoComplicado = (a, b) => {
 
 // Crear un programa que calcule el IVA de un precio dado
 
-//let numero = parseInt(prompt("Ingrese un precio:"))
+// let numero = parseInt(prompt("Ingrese un precio:"))
 
 // const calcularIVA = (precio) => {
 //     let resultado = precio * 0.21

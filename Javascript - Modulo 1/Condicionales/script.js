@@ -11,8 +11,8 @@ Condicion... si pasa esto entonces... y sino...
 
 // Existen ciertos tipos de datos que equivalen a true y otros a false
 
-let number = 10
-let name = "Pilar"
+// let number = 10
+// let name = "Pilar"
 
 // if (number) { // si pasa esto
 //     console.log("Di true en number") // ejecuto esto
@@ -232,6 +232,31 @@ let nulo = null // equivale a false
 //     }
 //     return false
 // }
+
+// const esParOImpar = (number) => {
+//     if (number === 0) {
+//         return "0 no es ni par ni impar"
+//     }
+//     if (number % 2 === 0) {
+//         return "Es par"
+//     }
+//     return "Es impar"
+// }
+
+// let number = 2
+
+// if (number === 0) {
+//     console.log("0 no es ni par ni impar")
+// }
+// if (number % 2 === 0) {
+//     console.log("Es par")
+// } else {
+//     console.log("Es impar")
+// }
+
+// console.log(esParOImpar(0))
+// console.log(esParOImpar(4))
+// console.log(esParOImpar(-1))
 
 // console.log(sumaEsMayorQueCero2(5, 10))
 // console.log(sumaEsMayorQueCero2(5, -5))

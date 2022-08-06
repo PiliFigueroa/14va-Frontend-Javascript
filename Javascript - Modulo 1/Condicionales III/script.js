@@ -73,3 +73,21 @@
 // console.log(sumar(5, 5))
 // console.log(sumar(-2, 7))
 // console.log(sumar(-10, -5))
+
+// const sumar = (a, b) => {
+//     const resultado = a + b
+//     if  (resultado > 0) return true
+//     return false
+// }
+
+// return implicito
+// const sumar = (a, b) => {
+//     return a + b
+// }
+
+// const sumar2 = (a, b) => a + b
+
+// const saludar = nombre => console.log(`Hola ${nombre}`)
+// saludar("Pilar")
+// saludar("Andrea")
+// saludar("Karin")

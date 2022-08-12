@@ -73,9 +73,10 @@ let amigos3 = ["Sol", "Victoria", "Lucas", "Marcos"]
 // console.log(nuevosAmigos)
 
 // .splice()
-// PENDIENTE
 //  Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos
-// console.log(amigos.splice(3, 1, "Juana"))
+console.log("antes: ", amigos)
+amigos.splice(1, 2)
+console.log("despues: ", amigos)
 
 // .join()
 // Concatenar nuestros elementos del array en base al parametro que reciba
@@ -98,3 +99,22 @@ let amigos3 = ["Sol", "Victoria", "Lucas", "Marcos"]
 
 // console.log(amigos.length)
 // console.log(amigos.unshift("Alex", "Liliana"))
+
+// .push()
+// Nos permite agregar elementos al array
+
+// console.log("antes: ", amigos)
+// amigos.push("Marcos", 5)
+// console.log("despues: ", amigos)
+
+// Array multidimensional
+// console.log("antes: ", amigos)
+// const otrosAmigos = ["Marcos", "Leonel"]
+// amigos.push(otrosAmigos)
+// console.log("despues: ", amigos)
+// console.log(amigos[4][0])
+// console.log(amigos[4][1])
+
+const ingresarNombre = prompt("Ingrese un nombre de un amigo:")
+amigos.push(ingresarNombre)
+console.log(amigos)

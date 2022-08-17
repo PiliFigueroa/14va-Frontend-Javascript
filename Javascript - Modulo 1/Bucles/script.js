@@ -174,3 +174,29 @@ const array = [
 
 // console.log(searchIndex("a", ["b", "e", "f", "a"])) // 3
 // console.log(searchIndex("e", ["b", "e", "f",])) // 1
+
+// for de decremento
+
+// for (let i = 10; i > 0; i--) {
+//     console.log(i)
+// }
+
+// forEach -> abuelito del for of
+// recibe el valor del elemento y los demas son parametros opcionales
+
+// amigos.forEach((amigo, index, array) => {
+//     console.log("valor del elemento:", amigo)
+//     console.log("indice del elemento:", index)
+//     console.log("el array que recorro:", array)
+// })
+
+// Callback
+// Es una funcion pasada por parametro a otra funcion
+
+// const alerta = () => alert("Pilar")
+//alerta("Pilar")
+
+// setTimeout -> ejecutar cierto codigo a partir de cierto tiempo
+//          callback, tiempo
+
+// setTimeout(alerta, 3000)

@@ -68,7 +68,7 @@ const nombreDeLaFuncion = () => {
 // let resultado = 0
 
 // const sumar = () => {
-//     resultado = 10 + 10
+//     return 10 + 10
 // }
 
 // console.log("antes de mi funcion:", resultado)
@@ -98,9 +98,12 @@ const nombreDeLaFuncion = () => {
 // let numero = parseInt(prompt("Ingrese el primer valor"))
 // let numero2 = parseInt(prompt("Ingrese el segundo valor"))
 
-// const sumar = (a, b) => {
-//     return a + b
+// const sumar2 = (numero1, numero2) => {
+//     return numero1 + numero2
 // }
+
+// sumar2(5, 10)
+// sumar2(-5, -10)
 
 // console.log(sumar(5, 3))
 // console.log(sumar(4, 5))

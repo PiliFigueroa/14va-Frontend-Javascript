@@ -1,12 +1,12 @@
-const numeros = [0, 10, -5, 20, 37, 92, 55, -16]
+// const numeros = [0, 10, -5, 20, 37, 92, 55, -16]
 
-const array = []
+// const array = []
 
-for (const numero of numeros) {
-    if (numero < 0) {
-        array.push(numero)
-    }
-}
+// for (const numero of numeros) {
+//     if (numero < 0) {
+//         array.push(numero)
+//     }
+// }
 //console.log(array)
 
 // Filter
@@ -33,29 +33,29 @@ for (const numero of numeros) {
 
 // Los jugadores que sacaron igual o mas de 150 puntos, se les suma un puntaje bonus de 50.
 
-const puntajes = [50, 100, 150, 75, 200]
+// const puntajes = [50, 100, 150, 75, 200]
 
-const puntajeBonus = puntajes.map(puntaje => {
-    if (puntaje >= 150) {
-        return puntaje + 50
-    }
-    return puntaje
-})
+// const puntajeBonus = puntajes.map(puntaje => {
+//     if (puntaje >= 150) {
+//         return puntaje + 50
+//     }
+//     return puntaje
+// })
 
-const puntajeBonus2 = puntajes.map(puntaje => puntaje >= 150 ? puntaje + 50 : puntaje)
+// const puntajeBonus2 = puntajes.map(puntaje => puntaje >= 150 ? puntaje + 50 : puntaje)
 
 //console.log(puntajeBonus2)
 
 // sin map()
 
-const array2 = []
+// const array2 = []
 
-for (const puntaje of puntajes) {
-    if (puntaje >= 150) {
-        array2.push(puntaje + 50)
-    } else {
-        array2.push(puntaje)
-    }
-}
+// for (const puntaje of puntajes) {
+//     if (puntaje >= 150) {
+//         array2.push(puntaje + 50)
+//     } else {
+//         array2.push(puntaje)
+//     }
+// }
 
-console.log(array2)
+// console.log(array2)

@@ -200,3 +200,20 @@ const array = [
 //          callback, tiempo
 
 // setTimeout(alerta, 3000)
+
+// De un array de 22 nombres quiero obtener 5 aleatorios cada vez que se cargue la pagina
+
+const nombre = ["Pilar", "Josefina", "Natalia","Karin", "Macarena", "Delfina", "Isabel", "Valeria", "Yanina", "Lourdes", "Celeste", "Rocio", "Micaela", "Ivana", "Lucia", "Andrea", "Julieta", "Solange", "Lorena", "Florencia", "Cecilia", "Fatima"]
+
+const seleccion = []
+
+let i = 0
+while (i < 5) {
+    const index = Math.floor(Math.random() * nombre.length)
+    if (!seleccion.includes(nombre[index])) {
+        seleccion.push(nombre[index])
+        i++
+    }
+}
+
+console.log(seleccion)

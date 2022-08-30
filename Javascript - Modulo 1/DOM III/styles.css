@@ -15,7 +15,7 @@ body {
 }
 
 /* The Modal (background) */
-/* .modal {
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -49,7 +49,7 @@ body {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-} */
+}
 
 /* .accordion {
     display: flex;

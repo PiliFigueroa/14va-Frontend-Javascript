@@ -31,7 +31,7 @@ const $$ = (selector) => document.querySelectorAll(selector)
 // const index = Math.floor(Math.random() * photos.length)
 // $img.src = photos[index]
 
-// const colors = ["red", "blue", "green", "yellow", "orange"]
+const colors = ["red", "blue", "green", "yellow", "orange"]
 
 // const $$div = $$("div")
 
@@ -61,6 +61,7 @@ const $$ = (selector) => document.querySelectorAll(selector)
 
 // for (let i = 0; i < 5; i++) {
 //     const cancion = prompt("Ingrese una cancion")
+//     console.log(cancion)
 //     $ul.innerHTML += `<li>${cancion}</li>`
 // }
 

@@ -1,0 +1,11 @@
+.error {
+    border: 1px solid red;
+}
+
+.errors-description {
+    color: red;
+}
+
+.container {
+    height: 100%;
+}

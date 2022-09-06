@@ -1,0 +1,40 @@
+// Formas de llamar al script desde el html
+// Llamando varios scripts y como ordenarlos
+// Variables, diferencias entre let y const
+// Funciones, para que son los parametros
+/* Profundizando conceptos:
+- entendiendo el scope
+- diferencias entre var y let
+- diferencias entre arrow function y function
+*/
+// Metodos nativos (breve mencion de los vistos)
+// Operador de asignacion vs operador logico de comparacion
+// Operadores logicos y aritmeticos
+/* Condicionales
+    - if y if else
+    - operador ternario
+*/
+/* Bucles
+    - for
+    - for in y for of
+*/
+// Arrays
+// Metodos de arrays
+/* DOM
+    - Como obtener un nodo
+    - Como obtener varios nodos
+    - Cambiando estilos con .style
+    - Cambiando, agregando e eliminando clases
+    - Agregando y cambiando atributos
+*/
+/* Eventos
+    - Declaracion de un evento
+    - click
+    - Diferencias entre eventos de teclado
+    - Diferencias entre eventos de mouse
+*/
+/* Formularios
+    - Accediendo a los valores de los input
+    - Modificando los input (value, type)
+    - Validaciones
+*/

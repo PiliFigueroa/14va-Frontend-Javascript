@@ -47,3 +47,4 @@
     - Se generara una contrasena con caracteres aleatorios basados en lo que el usuario tilde en los checkbox y radio buttons.
     - Pueden elegir que la contrasena se vaya generando con cada click del usuario, o a partir de un button que diga "Generar" y genere esa cadena de texto basados en las opciones seleccionadas.
     - Habra un button para copiar al clipboard automaticamente.
+    - Habra un button que vuelva a generar una contrasena nueva si al usuario no le gusto la que aparecio.

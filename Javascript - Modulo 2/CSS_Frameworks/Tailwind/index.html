@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="font-['Fira_Sans'] bg-slate-100">
+    <div
+      class="bg-[url('./assets/landing.jpg')] bg-no-repeat h-screen bg-cover bg-center"
+    >
+      <header class="w-full">
+        <nav class="flex justify-between items-center w-full">
+          <div class="w-1/5 text-center">
+            <img src="./assets/logo.png" alt="horse-logo" class="m-auto h-11" />
+            <h2 class="text-xl font-bold text-white">My horses web</h2>
+          </div>
+          <ul class="flex items-center w-2/4 m-auto justify-center">
+            <li class="m-5 text-white hover:text-[#ffe1a8]">
+              <a href="#">Home</a>
+            </li>
+            <li class="m-5 text-white hover:text-[#ffe1a8]">
+              <a href="#">Horses</a>
+            </li>
+            <li class="m-5 text-white hover:text-[#ffe1a8]">
+              <a href="#">More Horses</a>
+            </li>
+            <li class="m-5 text-white hover:text-[#ffe1a8]">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="flex items-center w-1/5 justify-center">
+            <a href="#"
+              ><i
+                class="devicon-facebook-plain text-xl mx-2 text-white hover:text-[#ffe1a8]"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="devicon-github-original text-xl mx-2 text-white hover:text-[#ffe1a8]"
+              ></i
+            ></a>
+            <a href="#"
+              ><i
+                class="devicon-linkedin-plain text-xl mx-2 text-white hover:text-[#ffe1a8]"
+              ></i
+            ></a>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="flex flex-col justify-center items-end h-screen">
+          <div class="mx-48 mb-8">
+            <h1 class="text-8xl text-white mb-8 font-['Sacramento']">
+              My horses web
+            </h1>
+            <h3 class="text-3xl text-white">Let's learn tailwind together!</h3>
+          </div>
+        </section>
+
+        <section class="w-full bg-slate-100 mb-16">
+          <h1 class="text-5xl text-center font-bold text-[#373737] -mt-8 mb-8">
+            My horses
+          </h1>
+          <div class="flex justify-evenly mx-24">
+            <div
+              class="flex flex-col p-4 w-80 bg-white drop-shadow-lg hover:scale-105"
+            >
+              <img src="./assets/card-1.jpg" alt="horse-card-1" />
+              <h2 class="text-2xl text-[#373737] font-bold mt-4">
+                Horse Card 1
+              </h2>
+              <p class="text-sm mt-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Recusandae consectetur unde ipsum nesciunt autem deleniti ipsa
+                rerum dolor!
+              </p>
+              <button
+                class="w-28 my-4 h-8 bg-green text-white bg-[#373737] hover:bg-[#ffe1a8] rounded-lg m-auto"
+              >
+                See Horse 1
+              </button>
+            </div>
+
+            <div
+              class="flex flex-col p-4 w-80 bg-white drop-shadow-lg hover:scale-105"
+            >
+              <img src="./assets/card-2.jpg" alt="horse-card-2" />
+              <h2 class="text-2xl text-[#373737] font-bold mt-4">
+                Horse Card 2
+              </h2>
+              <p class="text-sm mt-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Recusandae consectetur unde ipsum nesciunt autem deleniti ipsa
+                rerum dolor!
+              </p>
+              <button
+                class="w-28 my-4 h-8 bg-green text-white bg-[#373737] hover:bg-[#ffe1a8] rounded-lg m-auto"
+              >
+                See Horse 2
+              </button>
+            </div>
+
+            <div
+              class="flex flex-col p-4 w-80 bg-white drop-shadow-lg hover:scale-105"
+            >
+              <img src="./assets/card-3.jpg" alt="horse-card-3" />
+              <h2 class="text-2xl text-[#373737] font-bold mt-4">
+                Horse Card 3
+              </h2>
+              <p class="text-sm mt-2">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Recusandae consectetur unde ipsum nesciunt autem deleniti ipsa
+                rerum dolor!
+              </p>
+              <button
+                class="w-28 my-4 h-8 bg-green text-white bg-[#373737] hover:bg-[#ffe1a8] rounded-lg m-auto"
+              >
+                See Horse 3
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="w-full pt-8 bg-white">
+          <h1 class="text-5xl text-center font-bold text-[#373737] mb-8">
+            Another horse section
+          </h1>
+          <div class="flex flex-col m-auto">
+            <div class="h-80 flex py-16 items-center bg-slate-100">
+              <div class="w-96 ml-32">
+                <img
+                  src="./assets/card-long-1.jpg"
+                  alt="card-long-1"
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <p class="py-8 pl-8 w-1/2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, officiis? Possimus, deserunt quo repudiandae
+                necessitatibus hic architecto dolores suscipit! Id officiis
+                blanditiis ipsa cupiditate perspiciatis ex neque sed maiores
+                quo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, aliquam. Corporis reprehenderit laborum blanditiis
+                assumenda quis esse magni sint nostrum, fugit soluta unde eos
+                deserunt minus. Eligendi exercitationem officia reprehenderit.
+              </p>
+            </div>
+            <div class="h-80 flex py-16 items-center flex-row-reverse">
+              <div class="w-96 mr-32">
+                <img
+                  src="./assets/card-long-2.jpg"
+                  alt="card-long-2"
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <p class="py-8 pr-8 w-1/2 text-right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, officiis? Possimus, deserunt quo repudiandae
+                necessitatibus hic architecto dolores suscipit! Id officiis
+                blanditiis ipsa cupiditate perspiciatis ex neque sed maiores
+                quo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, aliquam. Corporis reprehenderit laborum blanditiis
+                assumenda quis esse magni sint nostrum, fugit soluta unde eos
+                deserunt minus. Eligendi exercitationem officia reprehenderit.
+              </p>
+            </div>
+
+            <div class="h-80 flex py-16 items-center bg-slate-100">
+              <div class="w-96 ml-32">
+                <img
+                  src="./assets/card-long-3.jpg"
+                  alt="card-long-3"
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <p class="py-8 pl-8 w-1/2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, officiis? Possimus, deserunt quo repudiandae
+                necessitatibus hic architecto dolores suscipit! Id officiis
+                blanditiis ipsa cupiditate perspiciatis ex neque sed maiores
+                quo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, aliquam. Corporis reprehenderit laborum blanditiis
+                assumenda quis esse magni sint nostrum, fugit soluta unde eos
+                deserunt minus. Eligendi exercitationem officia reprehenderit.
+              </p>
+            </div>
+            <div class="h-80 flex py-16 items-center flex-row-reverse">
+              <div class="w-96 mr-32">
+                <img
+                  src="./assets/card-long-4.jpg"
+                  alt="card-long-4"
+                  class="w-full rounded-lg"
+                />
+              </div>
+              <p class="py-8 pr-8 w-1/2 text-right">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, officiis? Possimus, deserunt quo repudiandae
+                necessitatibus hic architecto dolores suscipit! Id officiis
+                blanditiis ipsa cupiditate perspiciatis ex neque sed maiores
+                quo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur, aliquam. Corporis reprehenderit laborum blanditiis
+                assumenda quis esse magni sint nostrum, fugit soluta unde eos
+                deserunt minus. Eligendi exercitationem officia reprehenderit.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="w-full py-8">
+          <h1 class="text-5xl text-center font-bold text-[#373737] mb-8">
+            Want to learn more about horses?
+          </h1>
+          <form
+            class="flex flex-col w-8/12 m-auto bg-white rounded-lg p-8 drop-shadow-md"
+          >
+            <h2 class="text-3xl font-bold text-[#373737] pb-8">Contact Us!</h2>
+            <div class="flex flex-col m-auto w-11/12">
+              <div class="flex flex-col">
+                <label for="name" class="my-4">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Your name"
+                  class="w-full bg-slate-100 rounded-lg drop-shadow h-9 p-2"
+                />
+              </div>
+              <div class="flex flex-col">
+                <label for="email" class="my-4">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your e-mail"
+                  class="w-full bg-slate-100 rounded-lg drop-shadow h-9 p-2"
+                />
+              </div>
+
+              <label for="comments" class="my-4">Comment:</label>
+              <textarea
+                id="comments"
+                placeholder="Your comment"
+                class="w-full drop-shadow m-auto rounded-lg p-2 h-48 bg-slate-100"
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Send"
+              class="w-28 my-4 h-8 bg-green text-white bg-[#373737] hover:bg-[#ffe1a8] rounded-lg m-auto"
+            />
+          </form>
+        </section>
+        <footer class="bg-[#ffe1a8] h-44">
+          <div class="flex flex-col justify-center items-center">
+            <ul class="flex justify-between items-center w-1/4 mt-12">
+              <li class="hover:text-white text-[#373737]">
+                <a href="#">Home</a>
+              </li>
+              <li class="hover:text-white text-[#373737]">
+                <a href="#">About</a>
+              </li>
+              <li class="hover:text-white text-[#373737]">
+                <a href="#">Horses</a>
+              </li>
+              <li class="hover:text-white text-[#373737]">
+                <a href="#">More Horses</a>
+              </li>
+            </ul>
+            <div class="flex py-4">
+              <a href="#"
+                ><i
+                  class="devicon-facebook-plain text-xl mx-2 text-[#373737] hover:text-white"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="devicon-github-original text-xl mx-2 text-[#373737] hover:text-white"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="devicon-linkedin-plain text-xl mx-2 text-[#373737] hover:text-white"
+                ></i
+              ></a>
+            </div>
+            <h3 class="text-[#373737]">- Made with ❤️ by Basset -</h3>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

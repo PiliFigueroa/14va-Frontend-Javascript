@@ -1,7 +1,7 @@
 const estudiantes = [
     {
       edad: 17,
-      familiar: "Salamandra",
+      familiar: "Sapo",
       casa: "Hufflepuff",
       nombreCompleto: {
         nombre: "Ellis",
@@ -8318,24 +8318,24 @@ const alumnosSlytherin = estudiantes.filter((estudiante) => {
   return casa === "Slytherin"
 })
 
-const alumnosSlytherin2 = estudiantes.filter(({ casa, familiar }) => casa === "Slytherin" && familiar === "Gato")
+// const alumnosSlytherin2 = estudiantes.filter(({ casa, familiar }) => casa === "Slytherin" && familiar === "Gato")
 
 // console.log(alumnosSlytherin2)
 
-const arrayModificado = estudiantes.map(estudiante => {
-  return {...estudiante, esHumano: true}
-})
+// const arrayModificado = estudiantes.map(estudiante => {
+//   return {...estudiante, esHumano: true}
+// })
 
 // console.log(arrayModificado)
 
-const factorSanguineo = estudiantes.map(estudiante => {
-  if (estudiante.casa === "Slytherin") {
-    return {...estudiante, sangre: "Limpia"}
-  }
-  return {...estudiante, sangre: "Sucia"}
-})
+// const factorSanguineo = estudiantes.map(estudiante => {
+//   if (estudiante.casa === "Slytherin") {
+//     return {...estudiante, sangre: "Limpia"}
+//   }
+//   return {...estudiante, sangre: "Sucia"}
+// })
 
-console.log(factorSanguineo)
+// console.log(factorSanguineo)
 
 // Crear un objeto nuevo cuyas propiedades sean el nombre de cada casa y la cantidad de alumnos que pertenecen a la misma
 
@@ -8345,3 +8345,57 @@ console.log(factorSanguineo)
 //   gryffindor: 16,
 //   ravenclaw: 20
 // }
+
+const filtrarEstudiantes = (casa) => estudiantes.filter(estudiante => estudiante.casa === casa)
+
+// console.log(filtrarEstudiantes("Slytherin"))
+// console.log(filtrarEstudiantes("Ravenclaw"))
+
+const cantidadEstudiantesPorCasa = (estudiantes) => {
+  // Creo un array de casas inicialmente vacio donde quiero pushear cada casa sin repetirse
+  let casas = []
+  // Recorro el array de estudiantes para obtener las casas y pushearlas al array vacio
+  for (const { casa } of estudiantes) {
+    // Pregunto si ya lo tengo en el array, y si no esta, lo pusheo
+    !casas.includes(casa) && casas.push(casa)
+  }
+
+  // Declarar el objeto inicialmente vacio donde vamos a crear las propiedades de las casas
+  let newObj = {}
+  // Recorro nuestro array de casas para crear una propiedad al objeto por cada casa disponible
+  for (const casa of casas) {
+    // Con los corchetes creamos dinamicamente las propiedades a partir del array de casas
+    // Le asignamos como valor la longitud del array filtrado
+    newObj[casa.toLowerCase()] = filtrarEstudiantes(casa).length
+  }
+
+  return newObj
+}
+
+//console.log(cantidadEstudiantesPorCasa(estudiantes))
+
+//familiarPreferido, que tome por parámetro un array de estudiantes y devuelva el familiar que más estudiantes tienen
+
+const familiarPreferido = (estudiantes) => {
+  let nombresFamiliares = []
+  for (const { familiar } of estudiantes) {
+    !nombresFamiliares.includes(familiar) && nombresFamiliares.push(familiar)
+  }
+  
+  let newObj = {}
+  for (const familiar of nombresFamiliares) {
+    newObj[familiar] = estudiantes.filter(estudiante => estudiante.familiar === familiar).length
+  }
+
+  let familiarPreferido = ""
+  let inicial = 0
+  for (const familiar in newObj) {
+    if (inicial < newObj[familiar]) {
+      inicial = newObj[familiar]
+      familiarPreferido = familiar
+    }
+  }
+  return familiarPreferido
+}
+
+console.log(familiarPreferido(estudiantes))

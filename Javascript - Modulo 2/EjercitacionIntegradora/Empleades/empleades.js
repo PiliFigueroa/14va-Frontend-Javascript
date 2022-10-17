@@ -1134,3 +1134,11 @@ const filtrarEmpleades = (valor, propiedad) => {
 // console.log(filtrarEmpleades("Senior", "seniority"))
 // console.log(filtrarEmpleades("QA", "area"))
 // console.log(filtrarEmpleades("Venezuela", "pais"))
+
+const errorEnProduccion = () => {
+  return empleades.map(empleade => {
+    return {...empleade, haceGuardia: true}
+  })
+}
+
+console.log(errorEnProduccion())

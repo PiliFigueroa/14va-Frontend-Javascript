@@ -1,0 +1,23 @@
+body {
+    background-color: #c2c2c2;
+}
+
+h1 {
+    color: #424242;
+}
+
+button {
+    background-color: #424242;
+}
+
+body.modo-oscuro {
+    background-color: #424242;
+}
+
+.modo-oscuro h1 {
+    color: #c2c2c2;
+}
+
+.modo-oscuro button {
+    background-color: #c2c2c2;
+}

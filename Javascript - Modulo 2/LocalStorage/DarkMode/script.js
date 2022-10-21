@@ -31,12 +31,11 @@ if (localStorage.getItem('modo')) {
 }
 
 /* Inicialmente el usuario tendra en el localstorage el objeto modo seteado en "claro" y a su vez
-nuestra pagina tambien esta en modo claro, con el texto del span en "claro", por lo tanto, al dar click
-en mi boton y ejecutar este evento, entramos en el if ya que da true y cambiamos el texto del span a "oscuro",
-y a su vez mantenemos el objeto modo seteado en "claro" dentro del localstorage del usuario.
-Cuando el usuario vuelva a dar click, entrara en el "else" de mi if ya que ahora el texto del span dice "oscuro" por lo tanto
-ahora invertimos la logica, cambiando el texto del span a "claro" y enviando al localstorage del usuario el objeto modo pero
-seteado en oscuro. */
+nuestra pagina tambien esta en modo claro, con el texto del span en "oscuro", por lo tanto, al dar click
+en mi boton y ejecutar este evento, entramos en el else ya que da false y cambiamos el texto del span a "claro",
+y a su vez cambiamos el objeto modo seteado en "claro" a "oscuro" dentro del localstorage del usuario.
+Cuando el usuario vuelva a dar click, entrara en el if y que ahora el texto del span dice "claro" por lo tanto
+ahora invertimos la logica, cambiando el texto del span a "oscuro" y enviando al localstorage del usuario el objeto modo pero seteado en claro. */
 
 btnCambiarModo.onclick = () => {
     // Primero realizamos el toggle de la class modo-oscuro al body para cambiar la jerarquia de mis estilos

@@ -1,4 +1,8 @@
 # AhorrADAs
+
+### Pre-entrega: 07/11
+### Entrega final: 14/11
+
 ### ⚙️ Consigna
 
 En este proyecto vas a crear una aplicación que permita llevar un registro de los gastos realizados y de los ingresos obtenidos. Aplicarás lo aprendido para estructurar y almacenar la información compleja de tu aplicación, y desarrollarás funcionalidades que posibiliten manipularla y realizar operaciones esenciales a la hora de trabajar con datos.
@@ -25,6 +29,7 @@ Esto lo podemos lograr si nos aplicamos a los criterios de funciones pura a la h
 
 Los requisitos mínimos para que el proyecto sea considerado para la entrega son:
 
+- Debe codear en ingles
 - Debe respetar el diseño general dado. Pueden modificarse a gusto colores, fondo, fuentes e íconos
 - Debe respetar las interacciones y flujo de pantallas
 - Debe ser responsive
@@ -44,6 +49,7 @@ Los requisitos mínimos para que el proyecto sea considerado para la entrega son
     - Tipo de operación (gasto o ganancia)
     - Categoría a la que pertenece
     - Fecha de realización
+- Se debe validar en los formularios que los inputs no esten vacios
 - Cada categoría debe contar con un nombre
 - Al eliminar una categoría, se deben eliminar todas las operaciones asociadas a ella
 - Se debe poder filtrar las operaciones realizadas por:

@@ -19,7 +19,7 @@ Utilizando el template de `ejercicio Zorro`, se debe mostrar una imagen aleatori
 
 ### Ejercicio 2 - Gatites
 
-**[API](https://docs.thecatapi.com/api-reference/images/images-search)**
+**[API](https://cataas.com/#/)**
 
 Utilizando el template de `ejercicio Gatites`, se deben mostrar dos imágenes aleatoria de gatites cuando se apriete el botón.
 

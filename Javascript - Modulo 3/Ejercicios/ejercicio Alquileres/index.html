@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alquileres</title>
+    <script
+      src="https://kit.fontawesome.com/cd76ad0e9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Alquileres</h1>
+    <div class="container">
+      <button class="btn" id="myBtn">Agregar Usuario</button>
+    </div>
+    <div class="container">
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Edad</th>
+            <th>Estado</th>
+            <th>Saldo</th>
+            <th>Accion</th>
+          </tr>
+        </thead>
+        <tbody id="alquileresTable">
+          <tr>
+            <td>Dom</td>
+            <td>Schiller</td>
+            <td>Lizeth.Koepp51@gmail.com</td>
+            <td>45</td>
+            <td>Saldado</td>
+            <td>6000</td>
+            <td>
+              <span class="action">
+                <i class="fas fa-edit"></i>
+              </span>
+              <span class="action" onclick="openModalDelete()">
+                <i class="fas fa-trash"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Dom</td>
+            <td>Schiller</td>
+            <td>Lizeth.Koepp51@gmail.com</td>
+            <td>45</td>
+            <td>Saldado</td>
+            <td>6000</td>
+            <td>
+              <span class="action">
+                <i class="fas fa-edit"></i>
+              </span>
+              <span class="action" onclick="openModalDelete()">
+                <i class="fas fa-trash"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Dom</td>
+            <td>Schiller</td>
+            <td>Lizeth.Koepp51@gmail.com</td>
+            <td>45</td>
+            <td>Saldado</td>
+            <td>6000</td>
+            <td>
+              <span class="action">
+                <i class="fas fa-edit"></i>
+              </span>
+              <span class="action" onclick="openModalDelete()">
+                <i class="fas fa-trash"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Dom</td>
+            <td>Schiller</td>
+            <td>Lizeth.Koepp51@gmail.com</td>
+            <td>45</td>
+            <td>Saldado</td>
+            <td>6000</td>
+            <td>
+              <span class="action">
+                <i class="fas fa-edit"></i>
+              </span>
+              <span class="action" onclick="openModalDelete()">
+                <i class="fas fa-trash"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Dom</td>
+            <td>Schiller</td>
+            <td>Lizeth.Koepp51@gmail.com</td>
+            <td>45</td>
+            <td>Saldado</td>
+            <td>6000</td>
+            <td>
+              <span class="action">
+                <i class="fas fa-edit"></i>
+              </span>
+              <span class="action" onclick="openModalDelete()">
+                <i class="fas fa-trash"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Dom</td>
+            <td>Schiller</td>
+            <td>Lizeth.Koepp51@gmail.com</td>
+            <td>45</td>
+            <td>Saldado</td>
+            <td>6000</td>
+            <td>
+              <span class="action">
+                <i class="fas fa-edit"></i>
+              </span>
+              <span class="action" onclick="openModalDelete()">
+                <i class="fas fa-trash"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>Dom</td>
+            <td>Schiller</td>
+            <td>Lizeth.Koepp51@gmail.com</td>
+            <td>45</td>
+            <td>Saldado</td>
+            <td>6000</td>
+            <td>
+              <span class="action">
+                <i class="fas fa-edit"></i>
+              </span>
+              <span class="action" onclick="openModalDelete()">
+                <i class="fas fa-trash"></i>
+              </span>
+            </td>
+          </tr>
+          <tr class="active-row">
+            <td>Total:</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>36000</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <div class="modal__header">
+          <h2>Agregar usuario</h2>
+          <span id="close" class="close">
+            <i class="far fa-times-circle"></i>
+          </span>
+        </div>
+        <div class="modal__body">
+          <div>
+            <label
+              >Nombre<input type="text" name="nombreGuardar" id="nombreGuardar" placeholder="Nombre"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Apellido<input type="text" name="apellidoGuardar" id="apellidoGuardar" placeholder="Apellido"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Email<input type="text" name="emailGuardar" id="emailGuardar" placeholder="Email"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Edad<input type="number" name="edadGuardar" id="edadGuardar" placeholder="Edad"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Esta Pagado?
+              <select name="estadoGuardar" id="estadoGuardar">
+                <option value="Pendiente">Pendiente</option>
+                <option value="Saldado" select>Saldado</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label
+              >Edad<input type="number" name="saldo" id="saldoGurdar" placeholder="Saldo"
+            /></label>
+          </div>
+        </div>
+        <div class="modal__footer">
+          <button class="btn" id="btnGuardar">Guardar</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="editModal" class="modal">
+      <div class="modal-content">
+        <div class="modal__header">
+          <h2>Editar usuario</h2>
+          <span id="closeEdit" class="close">
+            <i class="far fa-times-circle"></i>
+          </span>
+        </div>
+        <div class="modal__body">
+          <div>
+            <label
+              >Nombre<input type="text" name="nombreEditar" id="nombreEditar" placeholder="Nombre"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Apellido<input type="text" name="apellidoEditar" id="apellidoEditar" placeholder="Apellido"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Email<input type="text" name="emailEditar" id="emailEditar" placeholder="Email"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Edad<input type="number" name="edadEditar" id="edadEditar" placeholder="Edad"
+            /></label>
+          </div>
+          <div>
+            <label
+              >Esta Pagado?
+              <select name="estadoEditar" id="estadoEditar">
+                <option value="Pendiente">Pendiente</option>
+                <option value="Saldado" select>Saldado</option>
+              </select>
+            </label>
+          </div>
+          <div>
+            <label
+              >Edad<input type="number" name="saldo" id="saldoEditar" placeholder="Saldo"
+            /></label>
+          </div>
+          <input type="hidden" id="idEditar">
+        </div>
+        <div class="modal__footer">
+          <button class="btn" id="btnEditar">Editar</button>
+        </div>
+      </div>
+    </div>
+    <div id="deleteModal" class="modal">
+      <div class="modal-content">
+        <div class="modal__header">
+          <h2>Borrar Usuario</h2>
+          <span id="closeDelete" class="close">
+            <i class="far fa-times-circle"></i>
+          </span>
+        </div>
+        <input type="hidden" id="idEliminar">
+        <div class="modal__footer">
+          <button class="btn">Cancelar</button>
+          <button class="btn" id="btnEliminar">Eliminar</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

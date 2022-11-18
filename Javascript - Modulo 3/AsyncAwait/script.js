@@ -17,12 +17,16 @@
 // getCharacters2().then(data => console.log("manera 2:", data))
 
 const getNews = async () => {
-    const response = await fetch("https://newsapi.org/v2/everything?q=Apple&from=2022-11-16&sortBy=popularity&apiKey=560269476aba4524b5bfc6fb26b7d99a")
-    const news = await response.json()
-    return news
+    fetch("https://newsapi.org/v2/everything?q=Apple&from=2022-11-16&sortBy=popularity&apiKey=560269476aba4524b5bfc6fb26b7d99a", {
+        mode: 'cors',
+        headers: {
+            'Access-Control-Allow-Origin': "https://newsapi.org/"
+        }
+    }).then(response => response.json())
+      .then(data => console.log(data))
 }
 
-getNews().then(data => console.log(data))
+getNews()
 
 // Promises
 

@@ -7,7 +7,7 @@
 - Ejemplo: https://youtu.be/kbw9MZhuuS0
 - Este TP tiene un desarrollo individual.
 - Tecnologias:
-    - Utilizar HTML, SASS y Javascript.
+    - Utilizar HTML, CSS y Javascript.
     - No se permite utilizar third parties de CSS (tales como Bootstrap, Bulma, etc).
     - Si esta permitido utilizar librerias de fonts e iconos (tales como fontawesome y google fonts).
 - Disenio:

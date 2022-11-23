@@ -8,8 +8,6 @@
 - Este TP tiene un desarrollo individual.
 - Tecnologias:
     - Utilizar HTML, CSS y Javascript.
-    - No se permite utilizar third parties de CSS (tales como Bootstrap, Bulma, etc).
-    - Si esta permitido utilizar librerias de fonts e iconos (tales como fontawesome y google fonts).
 - Disenio:
     - La eleccion de paleta de colores y tipografia es libre.
     - Deben respetar la estructura dada por el ejemplo, en tamanio y dimensiones.

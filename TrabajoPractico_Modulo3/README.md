@@ -1,7 +1,7 @@
 # Tercer Trabajo Practico ADA - Asincronismo / APIs
 
-## Fecha de pre-entrega: 20/05
-## Fecha de entrega: 27/05
+## Fecha de pre-entrega: 07/12
+## Fecha de entrega: 14/12
 ## Pautas y requirimientos
 
 - Ejemplo: https://youtu.be/kbw9MZhuuS0

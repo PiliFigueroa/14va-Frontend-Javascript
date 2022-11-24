@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT' crossorigin='anonymous'>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#" id="post-method">Submit user</a>
+    </nav>
+
+    <div class="container">
+        <div class="row" id="container-cards">
+            
+        </div>
+    </div>
+
+    <!-- FORM PUT -->
+    <form class="row d-none" id="form">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="text" class="form-control" id="age" placeholder="Age">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary" type="submit" id="submit">Edit</button>
+        </div>                       
+    </form>
+
+    <!-- FORM POST -->
+    <form class="row d-none" id="form-send">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name-send" placeholder="Name">
+        </div>
+        <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="text" class="form-control" id="age-send" placeholder="Age">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email-send" placeholder="Email">
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-success" type="submit" id="submit-send">Submit</button>
+        </div>                       
+    </form>
+
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8' crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+</body>
+</html>

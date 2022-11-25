@@ -1,0 +1,11 @@
+:root {
+    --primary-color: blue;
+    --secondary-color: #c2c2c2;
+    --title-size: 24px;
+}
+
+.caja {
+    background-color:  var(--primary-color);
+    height: 200px;
+    width: 200px;
+}
